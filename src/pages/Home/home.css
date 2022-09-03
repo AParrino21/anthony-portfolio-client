@@ -1,6 +1,7 @@
 .header-container {
     text-align: center;
-    padding: 150px 0 150px 0;
+    padding: 150px 0 400px 0;
+    background: conic-gradient(white 0deg 70deg, rgba(194, 221, 230, 0.123) 70deg 250deg, white 250deg 30deg) ;
 }
 
 .tracking-in-expand-fwd-top {
@@ -124,4 +125,24 @@
     width: 100%;
     max-width: 800px;
     margin: 20px auto;
+}
+
+.icons-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    font-size: 35px !important;
+    cursor: pointer;
+}
+
+.icons-link:hover {
+    color: blue !important;
+}
+
+.icons-git:hover {
+    color: rgb(107, 107, 107) !important;
 }
