@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import SchoolIcon from '@mui/icons-material/School';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
                 <div className='icons-container'>
                     <GitHubIcon className='icons icons-git' onClick={() => window.location.href = 'https://github.com/AParrino21'} />
                     <LinkedInIcon className='icons icons-link' onClick={() => window.location.href = 'https://www.linkedin.com/in/anthony-parrino-887b391b3/'} />
+                    <SchoolIcon className='icons icons-school' onClick={() => window.location.href = 'https://github.com/goobisanubis21'} />
                 </div>
             </div>
         </div>

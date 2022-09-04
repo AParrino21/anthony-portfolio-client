@@ -140,9 +140,21 @@
 }
 
 .icons-link:hover {
-    color: blue !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: 0 0 8px 5px rgba(0, 0, 255, 0.6);
+    background-color: rgba(0, 0, 255, 0.6);
+    border-radius: 50%;
 }
 
 .icons-git:hover {
-    color: rgb(107, 107, 107) !important;
+    color: rgb(255, 255, 255) !important;
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+}
+.icons-school:hover {
+    color: rgb(255, 255, 255) !important;
+    box-shadow: 0 0 8px 5px rgba(92, 0, 0, 0.6);
+    background-color: rgba(92, 0, 0, 0.6);
+    border-radius: 50%;
 }
