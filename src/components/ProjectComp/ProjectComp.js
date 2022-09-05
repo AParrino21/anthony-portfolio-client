@@ -3,7 +3,14 @@ import './projectComp.css'
 
 const ProjectComp = () => {
   return (
-    <div>ProjectComp</div>
+    <div>
+      <div>
+        Project 1
+      </div>
+      <div>
+        Project 2
+      </div>
+    </div>
   )
 }
 

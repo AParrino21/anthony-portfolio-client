@@ -1,0 +1,10 @@
+.about-me-bg {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 160px;
+    position: absolute;
+    top: -90px;
+    left: -150px;
+    background-color: white;
+}
