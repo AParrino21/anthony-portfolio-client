@@ -26,6 +26,24 @@ const projectData = [
         integrations: ['EmailJS', 'Facebook Pixel'],
         link: 'https://www.webcanvasdevelopment.com'
     },
+    {
+        id: 4,
+        name: 'Adtelligence',
+        image: '/images/adtelligence.png',
+        description: 'Ad serving platform built to help a user who signs up display ads and reach countless users',
+        tech: ['ReactJS', 'Javascript', 'Express', 'Node', 'CSS'],
+        integrations: ['Everflow Pixel', 'Facebook Pixel', 'Google Analytics', 'Adkernal'],
+        link: 'https://www.adtelligence.io'
+    },
+    {
+        id: 5,
+        name: 'Insta Loan Rates',
+        image: '/images/instaloan.png',
+        description: 'Web application for a company that helps users find the best loans for peronal or business use.',
+        tech: ['ReactJS', 'Javascript', 'Express', 'Node', 'CSS'],
+        integrations: ['Everflow', 'Google Analytics', 'Facebook Pixel'],
+        link: 'https://instaloanrates.com/lp1'
+    },
 ]
 
 module.exports = projectData

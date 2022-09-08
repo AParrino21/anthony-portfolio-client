@@ -5,7 +5,7 @@ import projectData from './ProjectData'
 
 const ProjectComp = () => {
   return (
-    <div style={{ width: '100%', maxWidth: '1500px', margin: '0 auto' }}>
+    <div style={{ width: '100%', maxWidth: '1600px', margin: '0 auto' }}>
       {projectData.map((data, i) => (
         <ProjectCard
           key={data.id}
