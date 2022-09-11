@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 93vh;
+    height: 92vh;
     color: white;
     background-image: url('../../../public/images/heroBg.jpg');
     background-size: cover;
@@ -31,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 93vh;
+    height: 94vh;
 }
 
 .tracking-in-expand-fwd-top {
@@ -208,6 +208,8 @@
 }
 
 .copy-email {
+    position: relative;
+    z-index: 999;
     cursor: pointer;
     padding: 8px;
     font-size: 25px;
