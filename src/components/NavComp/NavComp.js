@@ -6,14 +6,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import './navComp.css'
 
 const NavComp = () => {
     return (
         <>
             {[false].map((expand) => (
-                <Navbar key={expand} bg="light" expand={expand} className="mb-3">
+                <Navbar id='newBgNav' key={expand} bg="dark" expand={expand} className="">
                     <Container fluid>
-                        <Navbar.Brand href="#">AP</Navbar.Brand>
+                        <Navbar.Brand  id='newBgNav' href="/">AP</Navbar.Brand>
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
                         <Navbar.Offcanvas
                             id={`offcanvasNavbar-expand-${expand}`}

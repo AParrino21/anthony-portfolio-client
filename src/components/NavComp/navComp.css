@@ -1,0 +1,13 @@
+#newBgNav {
+    background-color: black !important;
+    color: white !important;
+}
+
+.navbar-toggler {
+    color: white !important;
+    background-color: white !important;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+}
