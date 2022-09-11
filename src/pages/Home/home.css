@@ -162,6 +162,8 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 999;
 }
 
 .icons {
@@ -178,7 +180,7 @@
 
 .icons-git:hover {
     color: rgb(255, 255, 255) !important;
-    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 8px 5px rgba(255, 255, 255, 0.6);
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 50%;
 }
