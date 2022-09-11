@@ -30,7 +30,7 @@ const ProjectCard = ({ data, i }) => {
           <br />
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>{data.tech.map(d => (
-              <p>{d}</p>
+              <p key={d}>{d}</p>
             ))}</div>
           </div>
           <br />
@@ -39,7 +39,7 @@ const ProjectCard = ({ data, i }) => {
             <div style={{borderBottom: '1px solid blue', marginBottom: '5px'}}></div>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '50px' }}>
               {data.integrations.map(int => (
-                <p>{int}</p>
+                <p key={int}>{int}</p>
               ))}
             </div>
           </div>
@@ -63,7 +63,7 @@ const ProjectCard = ({ data, i }) => {
           <br />
           <div>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>{data.tech.map(d => (
-              <p>{d}</p>
+              <p key={d}>{d}</p>
             ))}</div>
           </div>
           <br />
@@ -72,7 +72,7 @@ const ProjectCard = ({ data, i }) => {
             <div style={{borderBottom: '1px solid blue', marginBottom: '5px'}}></div>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '50px' }}>
               {data.integrations.map(int => (
-                <p>{int}</p>
+                <p key={int}>{int}</p>
               ))}
             </div>
           </div>

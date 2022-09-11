@@ -1,8 +1,6 @@
 .header-container {
     text-align: center;
     height: 93vh;
-    /* scroll-snap-type: y mandatory; */
-    /* overflow-y: scroll; */
 }
 
 .myheader {
@@ -11,8 +9,20 @@
     justify-content: center;
     align-items: center;
     height: 93vh;
-    /* scroll-snap-align: start; */
-    background: conic-gradient(white 0deg 70deg, rgba(176, 212, 224, 0.2) 70deg 250deg, white 250deg 30deg);
+    color: white;
+    background-image: url('../../../public/images/heroBg.jpg');
+    background-size: cover;
+    background-color: black;
+}
+
+.myheader::before {
+    content: '';
+    background-image: linear-gradient(to top, rgba(0,0,0,255), rgba(0, 0, 0, 0));
+    position: absolute;
+    height: 300px;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .scrollable {
@@ -21,17 +31,12 @@
     justify-content: center;
     align-items: center;
     height: 93vh;
-    /* scroll-snap-align: start; */
-}
-
-.scrollable-project {
-    /* scroll-snap-align: start; */
 }
 
 .tracking-in-expand-fwd-top {
     -webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    font-size: 100px;
+    font-size: 120px;
 }
 
 @-webkit-keyframes tracking-in-expand-fwd-top {
@@ -75,7 +80,7 @@
 .focus-in-contract {
     -webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 @-webkit-keyframes focus-in-contract {
@@ -111,7 +116,7 @@
 .text-focus-in {
     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -159,7 +164,7 @@
 }
 
 .icons {
-    font-size: 35px !important;
+    font-size: 55px !important;
     cursor: pointer;
 }
 
@@ -185,26 +190,27 @@
 
 .about-home-container {
     position: relative;
-}
-
-.about-home-container::before {
-    content: "";
-    background-image: url('../../../public/images/IMG_0499.JPG');
+    background-image: url('../../../public/images/about.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: .2;
-    background-size: cover;
+}
+
+.about-home-container::before {
+    content: '';
+    background-image: linear-gradient(to top, rgba(0,0,0,255), rgba(0, 0, 0, 0));
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    height: 200px;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .copy-email {
     cursor: pointer;
     padding: 8px;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .copy-email:hover {

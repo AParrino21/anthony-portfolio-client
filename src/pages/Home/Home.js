@@ -11,12 +11,12 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 const Home = () => {
 
     const [copiedEmail, setCopiedEmail ] = useState('Click To Copy!')
-    const [copyColor, setCopyColor ] = useState('black')
+    const [copyColor, setCopyColor ] = useState('white')
 
     function copyEmail() {
         navigator.clipboard.writeText('anthonyparrino90@gmail.com');
         setCopiedEmail('COPIED!')
-        setCopyColor('green')
+        setCopyColor('rgb(52, 255, 55)')
     }
 
     return (
@@ -41,7 +41,7 @@ const Home = () => {
                     </div>
                     <br />
                     <div>
-                        <p className='copy-email' onClick={copyEmail}>ANTHONYPARRINO90@GMAIL.COM <ContentCopyIcon style={{fontSize: '15px'}}/></p>
+                        <p className='copy-email' onClick={copyEmail}>ANTHONYPARRINO90@GMAIL.COM <ContentCopyIcon style={{fontSize: '20px'}}/></p>
                         <p style={{color: copyColor}} id='copy-text'>{copiedEmail}</p>
                     </div>
                 </div>
